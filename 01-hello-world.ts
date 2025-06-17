@@ -1,6 +1,6 @@
 export {};
 
-const nome: string = "fulano de tal";
+const nome: string = "Maycon";
 // const idade: number = 18;
 // const condicao:boolean = true;
 
