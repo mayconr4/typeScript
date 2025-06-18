@@ -25,3 +25,16 @@ const produtoC: Produto = ["TV", 1000];
 
 console.log(produtoA);
 console.log(produtoC);
+
+separador();
+
+//Usando tupla no retorno de função
+function verificaOperacao(sucesso: boolean): [number, string] {
+  if (sucesso) {
+    return [200, "Operação realizada com sucesso!"];
+  }
+  return [500, "Erro insesperado no servidor"];
+}
+
+let resultadoDaOperacao = verificaOperacao(false);
+console.log(resultadoDaOperacao);
