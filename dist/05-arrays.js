@@ -16,3 +16,8 @@ const linguagens = [
 ];
 console.log(linguagens[0][0]);
 console.log(linguagens[1][0]);
+const numeros = [1, 3, 4, 5, 6];
+const total = numeros.reduce((acumulador, numero) => {
+    return acumulador + numero;
+}, 0);
+console.log(total);
