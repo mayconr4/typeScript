@@ -6,4 +6,4 @@ function exibirCor(nome, cor) {
     return `Olá ${nome}`;
 }
 console.log(exibirCor("Maycon"));
-console.log(exibirCor("Henrique", "preto"));
+console.log(exibirCor("Henrique", "Rosa"));
