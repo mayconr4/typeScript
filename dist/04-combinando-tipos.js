@@ -18,3 +18,21 @@ let situacaoAluno3 = "pendente";
 console.log("Situação 1: " + situacaoAluno1);
 const diaAtual = "Quarta-feira";
 console.log(diaAtual);
+(0, modulos_1.separador)();
+const programador = {
+    nome: "Lucas",
+    idade: 18,
+    salario: 5000,
+};
+console.log(`nome: ${programador.nome}`);
+console.log(`idade: ${programador.idade}`);
+console.log(`salario: ${programador.salario}`);
+(0, modulos_1.separador)();
+const outroProgramador = {
+    nome: "Maycon",
+    idade: 18,
+    salario: 4500,
+};
+console.log(`nome: ${outroProgramador.nome}`);
+console.log(`idade: ${outroProgramador.idade}`);
+console.log(`salario: ${outroProgramador.salario}`);
