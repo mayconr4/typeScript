@@ -19,5 +19,5 @@ function verificaOperacao(sucesso) {
     }
     return [500, "Erro insesperado no servidor"];
 }
-const [situacao, resposta] = verificaOperacao(false);
-console.log(situacao, resposta);
+const [, resposta] = verificaOperacao(false);
+console.log(resposta);

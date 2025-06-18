@@ -30,3 +30,12 @@ let situacaoAluno2: Status = "inativo";
 let situacaoAluno3: Status = "pendente";
 
 console.log("Situação 1: " + situacaoAluno1);
+
+type DiasdaSemana =
+  | "Domingo"
+  | "Segunda-feira"
+  | "Terça-Feira"
+  | "Quarta-feira";
+
+const diaAtual: DiasdaSemana = "Quarta-feira";
+console.log(diaAtual);

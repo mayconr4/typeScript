@@ -16,3 +16,5 @@ let situacaoAluno1 = "ativo";
 let situacaoAluno2 = "inativo";
 let situacaoAluno3 = "pendente";
 console.log("Situação 1: " + situacaoAluno1);
+const diaAtual = "Quarta-feira";
+console.log(diaAtual);
