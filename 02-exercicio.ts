@@ -1,7 +1,5 @@
 /*
 
-2) Cria uma função que receba um objeto baseado an interface Produto e que mostre nome, ´reço e garantia. Obs.: o objeto deve ser desestruturado como parâmetros individuais.
-
 */
 
 //1) Crie uma interface para representar um produto com as propriedade nome, preço e grantia
@@ -11,6 +9,7 @@ interface Produto {
   garantia: boolean;
 }
 
+//2) Cria uma função que receba um objeto baseado an interface Produto e que mostre nome, preço e garantia. Obs.: o objeto deve ser desestruturado como parâmetros individuais.
 function mostrarProduto(produto: Produto): void {
   console.log("Produto: " + produto.nome);
   console.log("Preço: " + produto.preco);
